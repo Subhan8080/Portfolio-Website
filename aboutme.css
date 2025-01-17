@@ -1,0 +1,59 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background: #f8f9fa;
+}
+
+/* Header Styling */
+header {
+    background: #007bff;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main Content Styling */
+main {
+    padding: 2rem;
+}
+
+.bio, .skills {
+    margin-bottom: 2rem;
+}
+
+.skills ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #343a40;
+    color: white;
+}
